@@ -1,0 +1,16 @@
+app:
+  name: opentour-app-1
+  namespace: opentour-app-1-dev
+  cluster: .apps.cluster-8kmz5.8kmz5.sandbox2980.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/eero-redhat/opentour-app-1
+  org: eero-redhat
+  name: opentour-app-1
+
+image:
+  registry: Openshift
+  host: image-registry.openshift-image-registry.svc:5000
+  organization: 
+  name: opentour-app-1
